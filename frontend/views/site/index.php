@@ -26,14 +26,14 @@ $this->title = 'My Yii Application';
         
         <div class="col-lg-4 borderLeft">     
           <div class="service_block">
-            <div class="service_icon icon  delay-03s animated wow zoomIn"><img src="img/"/></div>
+            <div class="service_icon icon  delay-03s animated wow zoomIn"><img src="IMG-20180118-WA0004.jpg"/></div>
             <h4 class="animated fadeInUp wow">Fikih Ariyono</h4>
           </div>
         </div>
         
         <div class="col-lg-4 borderLeft">
           <div class="service_block">
-            <div class="service_icon icon  delay-03s animated wow zoomIn"><img src="img/"/></div>
+            <div class="service_icon icon  delay-03s animated wow zoomIn"><img src="IMG-20180118-WA0006.jpg"/></div>
             <h4 class="animated fadeInUp wow">S Ja'far Shodiq</h4> 
         </div>
       </div>
@@ -45,7 +45,7 @@ $this->title = 'My Yii Application';
       <div class="row">
         <div class="col-lg-4">
           <div class="service_block">
-            <div class="service_icon delay-03s animated wow  zoomIn"><img src="img/"/></div>
+            <div class="service_icon delay-03s animated wow  zoomIn"><img src="151240000402.jpg"/></div>
             <h4 class="animated fadeInUp wow">Muhammad Irfan Amri H</h4>
           </div>
         </div>
@@ -59,7 +59,7 @@ $this->title = 'My Yii Application';
         
         <div class="col-lg-4 borderLeft">
           <div class="service_block">
-            <div class="service_icon icon  delay-03s animated wow zoomIn"><img src="img/"/></div>
+            <div class="service_icon icon  delay-03s animated wow zoomIn"><img src="IMG-20180118-WA0003.jpg"/></div>
             <h4 class="animated fadeInUp wow">Atmaja Syukur</h4> 
         </div>
       </div>
