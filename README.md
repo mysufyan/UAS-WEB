@@ -1,55 +1,24 @@
-Yii 2 Advanced Project Template
-===============================
+Cara Install Yii2 Framework
+============================
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+Cara Install Yii2 Framework tanpa Composer(Offline)
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+1. Download File Yii2 Framework di "https://github.com/yiisoft/yii2/releases/download/2.0.6/yii-advanced-app-2.0.6.tgz" (sesuaikan dengan laptop kalian)
+2. Selanjutnya Extract file tadi di htdocs Contoh: "c:/xampp/htdocs/basic atau c:/xampp/htdocs/advanced".
+3. Kemudian buka CMD (command Promt) ketikkan 
+"cd /"
+"cd xampp/php"
+"php.exe c:/xampp/htdocs/advanced/init"
+4. Buka "http://localhost/phpmyadmin" lalu  buat database baru, untuk penamaan bebas dan bisa di beri nama seperti “yii2” setelah membuat database selanjutnya buka file buka file main-local.php "c:/xampp/htdocs/advanced/common/config/main-local.php".
+5. Selanjutnya ubah dbname dengan nama database yang td telah di buat.
+6. Selanjutnya kembali ke CMD ketikkan "cd xampp/php/php.exe c:/xampp/htdocs/advanced/yii migrate"
+7. Tunggu proses migrate data selesai selanjutnya masukkan " http://localhost/advanced/frontend/web/" di browser.
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+Tentang Aplikasi
+----------------
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
-
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
-
-DIRECTORY STRUCTURE
--------------------
-
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-```
+aplikasi CEK GUDANG BELAKANG adalah aplikasi untuk mengelola data stok barang, adapun aplikasi ini mempunyai fitur:
+- Dapat menginputkan suplier
+- Dapat menginputkan data barang baru
+- Dapat melihat stok barang yang tersedia
+- Dapat melihat laporan barang masuk dan barang keluar
